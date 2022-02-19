@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sana," sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-novigation {
+  padding: 10px 0;
+  background-color: #174180;
+  color: #fff;
+}
+
+.header-logo {
+  float: left;
+  color: #fff;
+  margin-right: 170px;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.menu-item {
+  display: inline-block;
+}
+
+.menu-link {
+  text-transform: uppercase;
+  padding: 0 15px;
+  font-size: 16px;
+}
