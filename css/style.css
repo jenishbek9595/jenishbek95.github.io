@@ -1,3 +1,9 @@
+:root {
+  --accent: #174180;
+  --accent-light: #3764a7;
+  --pure-white: #fff;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -18,13 +24,18 @@ body {
   margin: 0 auto;
 }
 
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .header a {
   color: #fff;
   text-decoration: none;
 }
 
 .header-novigation {
-  padding: 10px 0;
+  padding: 12px 0;
   background-color: #174180;
   color: #fff;
 }
@@ -50,4 +61,57 @@ body {
   text-transform: uppercase;
   padding: 0 15px;
   font-size: 16px;
+}
+
+.header-menu-link:hover {
+  background-color: var(--accent-light);
+}
+
+.intro {
+  padding: 60px 0;
+}
+
+.intro-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-left {
+  width: 30%;
+}
+
+.intro-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.intro-right {
+  width: 50%;
+}
+
+.intro-right h1 {
+  margin: 0 0 15px;
+  color: #174180;
+  font-size: 30px;
+}
+
+.intro-right h3,
+.intro-right p {
+  margin: 0 0 15px;
+  color: #174180;
+}
+
+.contacts {
+  color: #174180;
+}
+
+.contacts ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
