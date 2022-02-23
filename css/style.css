@@ -6,6 +6,7 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -104,6 +105,7 @@ body {
 }
 
 .contacts {
+  margin-bottom: 60px;
   color: #174180;
 }
 
@@ -114,4 +116,49 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.skills {
+  padding: 60px 0;
+  background-color: var(--accent);
+  color: var(--pure-white);
+  border-radius: 28px;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills li {
+  padding: 10px 25px;
+  background-color: var(--accent-light);
+  border-radius: 5px;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.code-example pre {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  color: var(--pure-white);
+  background-color: var(--accent);
+  border-radius: 19px;
+}
+
+.code-example {
+  background-color: rgba(247, 247, 239, 0.993);
+}
+
+.section-title-code {
+  color: var(--accent);
+  text-align: center;
 }
